@@ -1,0 +1,37 @@
+.item{
+    cursor: pointer;
+}
+
+.caption{
+    width: 80%;
+    left: 10%;
+    bottom: 10px;
+}
+.light-box {
+   
+    background-color: rgb(0,0,0,0.5);
+
+}
+.item-box{
+    width: 50%;
+    height: 70vh;
+    background-image: url(./images/5.jpg);
+    background-size: cover;
+     position: absolute;
+    
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+
+  
+}
+#close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.item-box i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
